@@ -1,5 +1,5 @@
 # Hey! I am Nexoniarz
 a small coder from Poland. I mostly code in C/C++ (but not only) because I love coding!
 
-Github Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nexoniarz&theme=default&show_icons=true&hide_border=true&count_private=true)
+# Github Stats
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Nexoniarz?cardType=github&fontFamily=Abel&preferLogin=false)](https://git.io/awesome-stats-card)
