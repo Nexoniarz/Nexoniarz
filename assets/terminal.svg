@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="330" viewBox="0 0 820 330" role="img" aria-label="Terminal: whoami - Nexoniarz, a small coder from Poland">
+  <style>
+    text { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 16px; fill: #c9d1d9; white-space: pre; }
+    .title { font-size: 13px; fill: #8b949e; }
+    .user { fill: #3fb950; font-weight: 700; }
+    .path { fill: #58a6ff; font-weight: 700; }
+    .dim { fill: #8b949e; }
+    .name { fill: #d2a8ff; font-weight: 700; }
+    .hl { fill: #ffa657; }
+    .str { fill: #a5d6ff; }
+
+    .line { opacity: 0; animation: show 0.01s linear forwards; }
+    @keyframes show { to { opacity: 1; } }
+
+    @keyframes type6 { to { transform: translateX(62px); } }
+    @keyframes type13 { to { transform: translateX(129px); } }
+    @keyframes type7 { to { transform: translateX(72px); } }
+    @keyframes gone { to { opacity: 0; } }
+
+    .cursor { opacity: 0; animation: show 0.01s linear 5.4s forwards, blink 1s step-end 5.4s infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="818" height="328" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h794 a12 12 0 0 1 12 12 v29 h-818 z" fill="#161b22"/>
+  <line x1="1" y1="42" x2="819" y2="42" stroke="#30363d" stroke-width="2"/>
+  <circle cx="24" cy="21.5" r="6.5" fill="#ff5f56"/>
+  <circle cx="45" cy="21.5" r="6.5" fill="#ffbd2e"/>
+  <circle cx="66" cy="21.5" r="6.5" fill="#27c93f"/>
+  <text class="title" x="410" y="26" text-anchor="middle">nexoniarz@poland: ~</text>
+
+  <!-- 1: whoami -->
+  <g class="line" style="animation-delay: 0.3s">
+    <text x="28" y="82"><tspan class="user">nexoniarz</tspan><tspan class="dim">@</tspan><tspan class="path">~</tspan><tspan class="dim"> $ </tspan>whoami</text>
+    <rect class="cover" x="162" y="64" width="62" height="26" fill="#0d1117" style="animation: type6 0.6s steps(6) 0.6s forwards, gone 0.01s linear 1.25s forwards"/>
+  </g>
+  <text class="line" x="28" y="112" style="animation-delay: 1.4s"><tspan class="name">Nexoniarz</tspan> - a small coder from Poland</text>
+
+  <!-- 2: cat stack.txt -->
+  <g class="line" style="animation-delay: 1.9s">
+    <text x="28" y="152"><tspan class="user">nexoniarz</tspan><tspan class="dim">@</tspan><tspan class="path">~</tspan><tspan class="dim"> $ </tspan>cat stack.txt</text>
+    <rect class="cover" x="162" y="134" width="129" height="26" fill="#0d1117" style="animation: type13 1s steps(13) 2.1s forwards, gone 0.01s linear 3.15s forwards"/>
+  </g>
+  <text class="line" x="28" y="182" style="animation-delay: 3.3s"><tspan class="hl">C</tspan>, <tspan class="hl">C++</tspan> by heart <tspan class="dim">// and a bit of everything else</tspan></text>
+
+  <!-- 3: ./motto -->
+  <g class="line" style="animation-delay: 3.8s">
+    <text x="28" y="222"><tspan class="user">nexoniarz</tspan><tspan class="dim">@</tspan><tspan class="path">~</tspan><tspan class="dim"> $ </tspan>./motto</text>
+    <rect class="cover" x="162" y="204" width="72" height="26" fill="#0d1117" style="animation: type7 0.6s steps(7) 4s forwards, gone 0.01s linear 4.65s forwards"/>
+  </g>
+  <text class="line" x="28" y="252" style="animation-delay: 4.9s"><tspan class="str">"still compiling, still learning"</tspan></text>
+
+  <!-- 4: idle prompt -->
+  <g class="line" style="animation-delay: 5.4s">
+    <text x="28" y="292"><tspan class="user">nexoniarz</tspan><tspan class="dim">@</tspan><tspan class="path">~</tspan><tspan class="dim"> $ </tspan></text>
+  </g>
+  <rect class="cursor" x="163" y="277" width="10" height="19" fill="#c9d1d9"/>
+</svg>
