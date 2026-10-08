@@ -50,7 +50,6 @@
 
   <style>
     .word { font-family: "Arial Black", "Segoe UI Black", Impact, "Helvetica Neue", Arial, sans-serif; font-weight: 900; font-size: 92px; letter-spacing: 6px; }
-    .sub  { font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 15px; letter-spacing: 8px; fill: #8be9fd; }
 
     .glitchA { fill: #00f0ff; mix-blend-mode: screen; animation: gA 3.2s steps(1) infinite; opacity: 0.85; }
     .glitchB { fill: #ff2bd6; mix-blend-mode: screen; animation: gB 3.2s steps(1) infinite; opacity: 0.85; }
@@ -84,8 +83,6 @@
     .sweep { animation: sweep 5s ease-in-out infinite; }
     @keyframes sweep { 0% { transform: translateX(-300px); } 60%, 100% { transform: translateX(1200px); } }
 
-    .caret { animation: blink 1s step-end infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
   </style>
 
   <!-- backdrop -->
@@ -139,16 +136,15 @@
 
   <!-- the name -->
   <g class="flicker">
-    <text class="word" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs" fill="#05010d" stroke="url(#inkWrap)" stroke-width="3" filter="url(#glow)">NEXONIARZ</text>
+    <text class="word" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs" fill="#05010d" stroke="#fff" stroke-width="3" filter="url(#glow)">NEXONIARZ</text>
     <text class="word glitchA" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs">NEXONIARZ</text>
     <text class="word glitchB" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs">NEXONIARZ</text>
-    <text class="word" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs" fill="url(#inkWrap)">NEXONIARZ</text>
+    <text class="word" x="450" y="150" text-anchor="middle" textLength="760" lengthAdjust="spacingAndGlyphs" fill="#fff">NEXONIARZ</text>
   </g>
 
   <!-- light sweep across the letters -->
   <g class="sweep"><rect x="0" y="60" width="60" height="110" fill="#fff" opacity="0.10" transform="skewX(-20)"/></g>
 
-  <text class="sub" x="450" y="292" text-anchor="middle">&gt; ONLINE<tspan class="caret">_</tspan></text>
 
   <!-- CRT scanlines + frame -->
   <rect width="900" height="320" rx="14" fill="url(#scan)"/>
