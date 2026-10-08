@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="assets/terminal.svg" width="100%" alt="nexoniarz@~ $ whoami - Nexoniarz, a small coder from Poland" />
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=c,cpp,cmake,git,linux,bash,vscode" alt="C, C++, CMake, Git, Linux, Bash, VS Code" />
+<img src="assets/banner.svg" width="100%" alt="Nexoniarz" />
 
 <br/><br/>
 
